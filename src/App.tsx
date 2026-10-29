@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { useEffect } from 'react';
@@ -50,7 +51,7 @@ function ThemeController() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/attendence-">
       <ThemeController />
       <Toaster
         position="top-right"
